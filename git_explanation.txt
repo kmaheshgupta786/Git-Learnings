@@ -1,0 +1,26 @@
+1. create new github repo 
+	eg: https://github.com/kmaheshgupta786/springboot.git
+2. open git bash cmd prompt
+3. run cmd : git init (click enter)
+4. to ignore unwanted files use cmd gitignore 
+   for this first have to create one empty files
+   runcmd : touch .gitignore
+   
+   open .empty fie on note padd
+   and list out all files which u dont want ot chceck in
+   eg : *.classpath
+
+5. add new fieles to local .git folder
+   cmd : git add .
+   
+   later u can check status with cmd - git status
+
+6. git commit -m 'msg'
+7. to link our local .git to remote .git 
+	git remote add orgin https://github.com/kmaheshgupta786/springboot.git
+	
+	to check the url connected --- git remote -v
+8. 	git push orgin master
+	to push all files - it asks credentials.
+	
+   
